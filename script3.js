@@ -10,7 +10,7 @@ request.onload= function() {
 
     console.log(result);
 
-    var a = result.filter((hin)=>hin.currencies='USD')
+    var a = result.filter((hin)=>hin.currencies=='USD')
 
     console.log(a);
 
